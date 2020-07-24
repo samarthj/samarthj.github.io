@@ -1,5 +1,3 @@
-# Samarth Jain
-
 ## Profile
 ### About Me
 I am an all around sofware developer withe experiences ranging frome mobile frontends to large scale databates systems and everything else in between.
