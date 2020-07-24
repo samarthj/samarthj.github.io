@@ -13,12 +13,14 @@ Location: Seattle
 ## Work Experience
 
 - Amazon Web Services
+
   | Positions | Duration|
   |:----------|:--------|
   | Software Development Enginer II | Oct 2017 – Now |
   | Software Development Enginer | Apr 2016 – Sep 2017 |
 
 - Infosys Limited
+
   | Positions | Duration|
   |:----------|:--------|
   | Senior Systems Engineer, Mobility Unit | Oct 2013 – July 2014 |
@@ -51,6 +53,7 @@ Location: Seattle
 ## Abilities
 
 Technical Skills
+
 | Type        | Details         |
 |:-------------|:------------------|
 |Languages|Java 1.5+ (Proficient), Ruby 2.2+ (Prior Experience), Python 2.7.x (Prior Experience), Go (Prior Experience), Bash (Proficient), Android Platform 2.2+ (Proficient), iOS Platform 5+ (Prior Experience)|
