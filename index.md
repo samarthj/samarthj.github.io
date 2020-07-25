@@ -37,7 +37,11 @@ Location: Seattle
 
 ## Education Experience
 
-- **Carnegie Mellon University, School of Computer Science, Masters in Sofware Engineering, Aug 2014 - Dec 2015, _CGPA - 3.60_**
+- **Carnegie Mellon University, School of Computer Science 
+
+| Degree | Duration | GPA |
+|:----------|:--------|:--------|
+|Masters in Sofware Engineering | Aug 2014 - Dec 2015 | CGPA - 3.60 |
   
   _Relevant Courses: Cloud Computing, Architecture for Software Systems, Introduction to Machine Learning, Management of Software Development, Methods: Deciding What to Design, Analysis of Software Artifacts, Software Development Studio_
  
