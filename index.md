@@ -15,7 +15,7 @@ Location: Seattle, WA, USA
 - Amazon Web Services
 
   | Positions | Duration|
-  |:----------|:--------|
+  |:----------|--------:|
   | Software Development Engineer II | Oct 2017 – Present |
   | Software Development Engineer | Apr 2016 – Sep 2017 |
   
@@ -40,7 +40,7 @@ Location: Seattle, WA, USA
 - Infosys Limited
 
   | Positions | Duration|
-  |:----------|:--------|
+  |:----------|--------:|
   | Senior Systems Engineer, Mobility Unit | Oct 2013 – July 2014 |
   | Systems Engineer, Mobility Unit | Aug 2011 – Sep 2013 |
   
@@ -79,7 +79,7 @@ Technical Skills
 - Languages
   
   | Details | Proficiency |
-  |:--------|:------------|
+  |:--------|------------:|
   | Java 1.8+ | Proficient |
   | Python3+ | Proficient |
   | Bash | Proficient |
@@ -90,7 +90,7 @@ Technical Skills
 - Web Technologies
 
   | Details | Proficiency |
-  |:--------|:------------|
+  |:--------|------------:|
   | JavaScript | Proficient |
   | HTML/HTML5 | Proficient |
   | CSS3 | Proficient |
@@ -98,7 +98,7 @@ Technical Skills
 - Databases
 
   | Details | Proficiency |
-  |:--------|:------------|
+  |:--------|------------:|
   | JournalDB | Proficient |
   | MySQL | Proficient |
   | PostgresQL | Proficient |
