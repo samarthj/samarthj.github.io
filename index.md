@@ -1,6 +1,6 @@
 ## Profile
 ### About Me
-I am an all around sofware developer withe experiences ranging frome mobile frontends to large scale databates systems and everything else in between.
+I am an all around software developer withe experiences ranging from mobile front-ends to large scale databases systems and everything else in between.
 * * *
 ### Details
 
@@ -8,7 +8,7 @@ Name: Samarth Jain
 
 Age: 31 years
 
-Location: Seattle
+Location: Seattle, WA, USA
 * * *
 ## Work Experience
 
@@ -16,8 +16,26 @@ Location: Seattle
 
   | Positions | Duration|
   |:----------|:--------|
-  | Software Development Enginer II | Oct 2017 – Now |
-  | Software Development Enginer | Apr 2016 – Sep 2017 |
+  | Software Development Engineer II | Oct 2017 – Present |
+  | Software Development Engineer | Apr 2016 – Sep 2017 |
+  
+  **_Project Experience_:**
+  
+  - Releases:
+    - **Automate database schema migration:** _Fully manual process to automated CR based schema migration for 1000s of host in 25 regions_
+    - **Create binary backups for quick db backups and restore:** _Used to use mysqldump which took hours to restore. Moving to binary backups improved performance by a large amount and was only bound by the hosts capability to transport and extract the dump._
+    - **Reapers:** _Garbage collection for TB size database. A system of total 13 different state machines that cleanup the database on a cron. Fully configurable to be able to reap N objects in M batches for A accounts and R resources for each of the reapers. One special case reaper GCs live objects that are (in)directly interact-able by the user._
+    - **Support for Docker Image Manifest V2 Schema2 and OCI Image Manifest Specification Support:** _Adding support for the new schema types while maintaining support for the original Docker Image Manifest Schema1, with up and down translations._
+    - **Performance improvement for per hour billing:** _Improved billing performance by refactoring the code to function at scale using check-pointing and parallelism to gain up to 3-4x times the initial performance. Choosing to optimize the heap size aggressively, so that the host and dataset size are not the bottleneck. Leaving compute as a variable to be tweaked, let jvm run its course and beef prioritize host compute resources over others for hardware provisioning._ 
+    - **Improved data durability for image layers in ECR:** _Added md5 checking for every uploaded part and the whole blob for each layer stored in ECR_ 
+    - **Improved database query performance:** _Modified the common libraries to use the newer db apis and explicitly specifying indices (and creating new ones where necessary). Since the workload of the service is order of 10:1 read:write, this improved overall performance significantly_
+  - Operational Improvements:
+    - **Improved reliability of db instance deployments:** _Automated sanity checks for db instances to validate readiness before activation during deployments._
+    - **Migration of all databases worldwide to full utf8 support on all instances**
+    - **Logging for all downstream request to aws services to improve debug-ability**
+    - **Load test for service:** _Put the service in Gamma under 1.6x times the load that it saw in production in the largest commercial region for a week for testing._
+    - **End to end testing for every version of docker:** _Added the ability to test pushing and pulling images to and from every released version of docker for ECR._
+    - **Launched ECR in CPT and MXP:** _Reduced wall-clock time and effort needed to release in a region by automating multiple manual and web interactive tasks in to easy to configure command line calls._
 
 - Infosys Limited
 
@@ -26,7 +44,7 @@ Location: Seattle
   | Senior Systems Engineer, Mobility Unit | Oct 2013 – July 2014 |
   | Systems Engineer, Mobility Unit | Aug 2011 – Sep 2013 |
   
-   _Project Experience:_ All projects were developed using Agile SDLC and was involved in all areas from Requirements Elicitation & Requests for Proposals, to Software Architecture Design to final Software Development and Delivery to the customer.
+   **_Project Experience:_** All projects were developed using Agile SDLC and was involved in all areas from Requirements Elicitation & Requests for Proposals, to Software Architecture Design to final Software Development and Delivery to the customer.
    
   - **Westpac – Credit Card & Loan Application:** _Did a system overhaul of the existing web portal built on Spring framework and moved to mobile friendly technologies, with a RESTful (Java) backend and AngularJS frontend. Designed the complete Software Architecture of the front-end based on a product line model that supports easy branding changes alongside a responsive web design. Affected several performance optimizations and UX enhancements for smooth application flow across all browsers, including backward compatibility to Internet Explorer 6._
   
@@ -34,14 +52,14 @@ Location: Seattle
   
   - **C93 – Mobile Virtual Wallet:** _Built concept mobile applications on Android and iOS that provide a complete mobile digital commerce ecosystem solution that includes banking & telephone/online/NFC payment functionalities, complemented with statistical reporting and budget management. Designed the complete Mobile Software Architecture that interfaces with Infosys’ Finacle Digital Commerce (FDC) as the backend. The solution was designed using a product line based architecture, which allows easy changes to branding and quick addition of new services, with several performance optimizations to ensure a viable solution as well as slick interface on both phone and tablet. Being a first of its kind solution in the Australian market, the project has gained immense traction and is being currently developed as a commercial solution for several service providers across many domains. Received a Bravo Award for Excellence in Oct 2013 for the contributions to this project._
 
-
+* * *
 ## Education Experience
 
 - Carnegie Mellon University, School of Computer Science 
 
   | Degree | Duration | CGPA |
   |:----------|:--------|:--------|
-  |Masters in Sofware Engineering | Aug 2014 - Dec 2015 | 3.60 |
+  |Masters in Software Engineering | Aug 2014 - Dec 2015 | 3.60 |
   
   _Relevant Courses: Cloud Computing, Architecture for Software Systems, Introduction to Machine Learning, Management of Software Development, Methods: Deciding What to Design, Analysis of Software Artifacts, Software Development Studio_
  
@@ -65,6 +83,7 @@ Technical Skills
 |Application Server|Tomcat 6.0+ (Proficient), JBoss (Prior Experience), Undertow (Prior Experience)|
 |Databases|JournalDB (Proficent), MySQL (Proficient), HBase (Prior Experience)
 
+* * *
 ## Contact
 dev@samarthj.com
 * * *
