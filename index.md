@@ -26,7 +26,7 @@ Location: Seattle, WA, USA
     - **Create binary backups for quick db backups and restore:** _Used to use mysqldump which took hours to restore. Moving to binary backups improved performance by a large amount and was only bound by the hosts capability to transport and extract the dump._
     - **Reapers:** _Garbage collection for TB size database. A system of total 13 different state machines that cleanup the database on a cron. Fully configurable to be able to reap N objects in M batches for A accounts and R resources for each of the reapers. One special case reaper GCs live objects that are (in)directly interact-able by the user._
     - **Support for Docker Image Manifest V2 Schema2 and OCI Image Manifest Specification Support:** _Adding support for the new schema types while maintaining support for the original Docker Image Manifest Schema1, with up and down translations._
-    - **Performance improvement for per hour billing:** _Improved billing performance by refactoring the code to function at scale using check-pointing and parallelism to gain up to 3-4x times the initial performance. Choosing to optimize the heap size aggressively, so that the host and dataset size are not the bottleneck. Leaving compute as a variable to be tweaked, let jvm run its course and beef prioritize host compute resources over others for hardware provisioning._ 
+    - **Performance improvement for per hour billing:** _Improved billing performance by refactoring the code to function at scale using check-pointing and parallelism to gain up to 3-4x times the initial performance. Choosing to optimize the heap size aggressively, so that the host and dataset size are not the bottleneck. Leaving compute as a variable to be tweaked, let jvm run its course and prioritize host compute resources over others for hardware provisioning._ 
     - **Improved data durability for image layers in ECR:** _Added md5 checking for every uploaded part and the whole blob for each layer stored in ECR_ 
     - **Improved database query performance:** _Modified the common libraries to use the newer db apis and explicitly specifying indices (and creating new ones where necessary). Since the workload of the service is order of 10:1 read:write, this improved overall performance significantly_
   - Operational Improvements:
@@ -76,12 +76,34 @@ Location: Seattle, WA, USA
 
 Technical Skills
 
-| Type        | Details         |
-|:-------------|:------------------|
-|Languages|Java 1.5+ (Proficient), Ruby 2.2+ (Prior Experience), Python 2.7.x (Prior Experience), Go (Prior Experience), Bash (Proficient), Android Platform 2.2+ (Proficient), iOS Platform 5+ (Prior Experience)|
-|Web Technologies|JavaScript (Proficient), HTML/HTML5 (Proficient), CSS3 (Proficient), Servlets 2.x (Prior Experience), JSP 2.0 (Prior Experience)|
-|Application Server|Tomcat 6.0+ (Proficient), JBoss (Prior Experience), Undertow (Prior Experience)|
-|Databases|JournalDB (Proficent), MySQL (Proficient), HBase (Prior Experience)
+- Languages
+  
+  | Details | Proficiency |
+  |:--------|:------------|
+  | Java 1.8+ | Proficient |
+  | Python3+ | Proficient |
+  | Bash | Proficient |
+  | Go 1.5+ | Prior Experience |
+  | Ruby 2.2+ | Prior Experience |
+  | Objective-C | Prior Experience |
+
+- Web Technologies
+
+  | Details | Proficiency |
+  |:--------|:------------|
+  | JavaScript | Proficient |
+  | HTML/HTML5 | Proficient |
+  | CSS3 | Proficient |
+
+- Databases
+
+  | Details | Proficiency |
+  |:--------|:------------|
+  | JournalDB | Proficient |
+  | MySQL | Proficient |
+  | PostgresQL | Proficient |
+  | DynamoDB | Prior Experience |
+  | HBase | Prior Experience |
 
 * * *
 ## Contact
