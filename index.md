@@ -1,6 +1,6 @@
 ## Profile
 ### About Me
-I am an all around software developer withe experiences ranging from mobile front-ends to large scale databases systems and everything else in between.
+I am an all around software developer with experiences ranging from mobile front-ends to large scale databases systems and everything else in between.
 * * *
 ### Details
 
@@ -12,9 +12,9 @@ Location: Seattle, WA, USA
 * * *
 ## Work Experience
 
-- Amazon Web Services
+- ### Amazon Web Services
 
-  | Positions | Duration|
+  | Position | Duration|
   |:----------|--------:|
   | Software Development Engineer II | Oct 2017 – Present |
   | Software Development Engineer | Apr 2016 – Sep 2017 |
@@ -37,14 +37,14 @@ Location: Seattle, WA, USA
     - **End to end testing for every version of docker:** _Added the ability to test pushing and pulling images to and from every released version of docker for ECR._
     - **Launched ECR in CPT and MXP:** _Reduced wall-clock time and effort needed to release in a region by automating multiple manual and web interactive tasks in to easy to configure command line calls._
 
-- Infosys Limited
+- ### Infosys Limited
 
-  | Positions | Duration|
+  | Position | Duration|
   |:----------|--------:|
   | Senior Systems Engineer, Mobility Unit | Oct 2013 – July 2014 |
   | Systems Engineer, Mobility Unit | Aug 2011 – Sep 2013 |
   
-   **_Project Experience:_** All projects were developed using Agile SDLC and was involved in all areas from Requirements Elicitation & Requests for Proposals, to Software Architecture Design to final Software Development and Delivery to the customer.
+   **_Project Experience_:** All projects were developed using Agile SDLC and was involved in all areas from Requirements Elicitation & Requests for Proposals, to Software Architecture Design to final Software Development and Delivery to the customer.
    
   - **Westpac – Credit Card & Loan Application:** _Did a system overhaul of the existing web portal built on Spring framework and moved to mobile friendly technologies, with a RESTful (Java) backend and AngularJS frontend. Designed the complete Software Architecture of the front-end based on a product line model that supports easy branding changes alongside a responsive web design. Affected several performance optimizations and UX enhancements for smooth application flow across all browsers, including backward compatibility to Internet Explorer 6._
   
@@ -55,15 +55,15 @@ Location: Seattle, WA, USA
 * * *
 ## Education Experience
 
-- Carnegie Mellon University, School of Computer Science 
+- ### Carnegie Mellon University, School of Computer Science 
 
   | Degree | Duration | CGPA |
   |:----------|:--------|:--------|
   |Masters in Software Engineering | Aug 2014 - Dec 2015 | 3.60 |
   
-  _Relevant Courses: Cloud Computing, Architecture for Software Systems, Introduction to Machine Learning, Management of Software Development, Methods: Deciding What to Design, Analysis of Software Artifacts, Software Development Studio_
+  _**Relevant Courses:** Cloud Computing, Architecture for Software Systems, Introduction to Machine Learning, Management of Software Development, Methods: Deciding What to Design, Analysis of Software Artifacts, Software Development Studio_
  
-  _Project Experience:_
+  **_Project Experience_:**
   
   - **Twitter Analytics Project** – _Built end-to-end infrastructure for extracting analytics information from compressed raw Twitter data larger than 1TB in size. Used Amazon Elastic MapReduce for extracting and transforming data raw data from Amazon S3, which was then stored in MySQL and HBase databases and load tested via multiple web queries of varying complexity via web services built on Undertow and achieved on average throughput of 5,000 PRS and latency of 15 ms. As a result of the performance in the projects in the course was offered a position as Teaching Assistant._
   
@@ -72,11 +72,9 @@ Location: Seattle, WA, USA
   - **Trusted Family’s Data Analytics Portal** – _Built a Data Visualization Framework front-end using EmberJS and an Analytics Engine using Ruby that uses analytics data from Trusted Family’s social platform stored in MongoDB to provide business insights for their account managers and their client’s organizations. Designed the Software System Architecture for the Analytics Engine that allows Trusted Family to modify business rules of the analytics framework on the fly to improve user-facing performance and the ability to modify the analysis pattern in the future. In addition as the Quality Manager and kept the defect density to 11/KSLOC during development with only 1 escaped defect after release._
 
 * * *
-## Abilities
+## Technical Skills
 
-Technical Skills
-
-- Languages
+- ### Languages
   
   | Details | Proficiency |
   |:--------|------------:|
@@ -87,15 +85,15 @@ Technical Skills
   | Ruby 2.2+ | Prior Experience |
   | Objective-C | Prior Experience |
 
-- Web Technologies
+- ### Web Technologies
 
   | Details | Proficiency |
   |:--------|------------:|
   | JavaScript | Proficient |
-  | HTML/HTML5 | Proficient |
+  | HTML/HTML5 | Proficient |https://bio.samarthj.com/https://bio.samarthj.com/
   | CSS3 | Proficient |
 
-- Databases
+- ### Databases
 
   | Details | Proficiency |
   |:--------|------------:|
@@ -107,5 +105,5 @@ Technical Skills
 
 * * *
 ## Contact
-dev@samarthj.com
+email: [dev@samarthj.com](mailto:dev@samarthj.com)
 * * *
