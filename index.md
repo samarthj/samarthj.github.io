@@ -26,8 +26,8 @@ Location: Seattle, WA, USA
   - **Create binary backups for quick db backups and restore:** _Used to use mysqldump which took hours to restore. Moving to binary backups improved performance by a large amount and was only bound by the hosts capability to transport and extract the dump._
   - **Reapers:** _Garbage collection for TB size database. A system of total 13 different state machines that cleanup the database on a cron. Fully configurable to be able to reap N objects in M batches for A accounts and R resources for each of the reapers. One special case reaper GCs live objects that are (in)directly interact-able by the user._
   - **Support for Docker Image Manifest V2 Schema2 and OCI Image Manifest Specification Support:** _Adding support for the new schema types while maintaining support for the original Docker Image Manifest Schema1, with up and down translations._
-  - **Performance improvement for per hour billing:** _Improved billing performance by refactoring the code to function at scale using check-pointing and parallelism to gain up to 3-4x times the initial performance. Choosing to optimize the heap size aggressively, so that the host and dataset size are not the bottleneck. Leaving compute as a variable to be tweaked, let jvm run its course and prioritize host compute resources over others for hardware provisioning._ 
-  - **Improved data durability for image layers in ECR:** _Added md5 checking for every uploaded part and the whole blob for each layer stored in ECR_ 
+  - **Performance improvement for per hour billing:** _Improved billing performance by refactoring the code to function at scale using check-pointing and parallelism to gain up to 3-4x times the initial performance. Choosing to optimize the heap size aggressively, so that the host and dataset size are not the bottleneck. Leaving compute as a variable to be tweaked, let jvm run its course and prioritize host compute resources over others for hardware provisioning._
+  - **Improved data durability for image layers in ECR:** _Added md5 checking for every uploaded part and the whole blob for each layer stored in ECR_
   - **Improved database query performance:** _Modified the common libraries to use the newer db apis and explicitly specifying indices (and creating new ones where necessary). Since the workload of the service is order of 10:1 read:write, this improved overall performance significantly_
 - Operational Improvements:
   - **Improved reliability of db instance deployments:** _Automated sanity checks for db instances to validate readiness before activation during deployments._
@@ -38,6 +38,7 @@ Location: Seattle, WA, USA
   - **Launched ECR in CPT and MXP:** _Reduced wall-clock time and effort needed to release in a region by automating multiple manual and web interactive tasks in to easy to configure command line calls._
 
 
+
 ### Infosys Limited
 
 | Position | Duration|
@@ -46,7 +47,7 @@ Location: Seattle, WA, USA
 | Systems Engineer, Mobility Unit | Aug 2011 – Sep 2013 |
 
   **_Project Experience_:** All projects were developed using Agile SDLC and was involved in all areas from Requirements Elicitation & Requests for Proposals, to Software Architecture Design to final Software Development and Delivery to the customer.
-  
+
 - **Westpac – Credit Card & Loan Application:** _Did a system overhaul of the existing web portal built on Spring framework and moved to mobile friendly technologies, with a RESTful (Java) backend and AngularJS frontend. Designed the complete Software Architecture of the front-end based on a product line model that supports easy branding changes alongside a responsive web design. Affected several performance optimizations and UX enhancements for smooth application flow across all browsers, including backward compatibility to Internet Explorer 6._
 
 - **Goldman Sachs – Make an Impact:** _Built an Android application designed to aid in the campus recruitment conducted by Goldman Sachs across the globe and to create awareness about the various career paths in the company. Designed the complete Mobile Software Architecture that decouples all content (sourced from Goldman Sachs and their portals on Twitter, YouTube, Facebook and LinkedIn) from the UI and can by dynamically updated without requiring an update to the application. Affected several performance optimizations and UX enhancements which impressed the client to ask for similar changes on their iOS application. Received a Bravo Award for Excellence in Feb 2014 for the contributions to this project._
@@ -56,7 +57,7 @@ Location: Seattle, WA, USA
 * * *
 ## Education Experience
 
-### Carnegie Mellon University, School of Computer Science 
+### Carnegie Mellon University, School of Computer Science
 
 | Degree | Duration | CGPA |
 |:----------|:--------|:--------|
@@ -76,7 +77,7 @@ _**Relevant Courses:** Cloud Computing, Architecture for Software Systems, Intro
 ## Technical Skills
 
 - ### Languages
-  
+
   | Details | Proficiency |
   |:--------|------------:|
   | Java 1.8+ | Proficient |
