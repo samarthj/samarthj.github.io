@@ -1,4 +1,4 @@
 title: Samarth Jain
 show_downloads: false
-theme: jekyll-theme-midnight
+remote_theme: "mmistakes/minimal-mistakes@4.23.0"
 
