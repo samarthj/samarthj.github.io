@@ -1,4 +1,4 @@
-# SAMARTH JAIN
+# PROFILE
 
 ## SUMMARY
 I am a language and technology agnostic software/ systems engineer. In any situation, I always want to have something to offer my team and something which I can learn from them. The hunger for learning more and newer things is the highest priority that motivates me. To that end I have experience from all the way from surface level UI Designs all the way down to managing memory and individual units of execution, in both the context of an application working on a handheld device or a large distributed system serving hundreds of thousands of users.
@@ -15,6 +15,7 @@ Software Architecture • Cloud Computing • Linux System Administration • Mo
 ## EXPERIENCE
 ### Amazon Web Services, Seattle
 Team:  AWS Elastic Container Registry
+
 | Position                         |            Duration |
 | :------------------------------- | ------------------: |
 | Software Development Engineer II |  OCT 2017 – Present |
@@ -36,6 +37,7 @@ Key accomplishments:
 
 
 ### Carnegie Mellon University, Pittsburgh
+
 | Position                                      |            Duration |
 | :-------------------------------------------- | ------------------: |
 | Graduate Teaching Assistant - Cloud Computing | AUG 2015 - DEC 2015 |
@@ -58,6 +60,7 @@ Projects:
 3. C93 – Mobile Virtual Wallet: Built concept mobile applications on Android and iOS that provide a complete mobile digital commerce ecosystem solution that includes banking & telephone/online/NFC payment functionalities, complemented with statistical reporting and budget management. Designed the complete Mobile Software Architecture that interfaces with Infosys’ Finacle Digital Commerce (FDC) as the backend. The solution was designed using a product line based architecture, which allows easy changes to branding and quick addition of new services, with several performance optimizations to ensure a viable solution as well as slick interface on both phone and tablet. Being a first of its kind solution in the Australian market, the project has gained immense traction and is being currently developed as a commercial solution for several service providers across many domains. Received a Bravo Award for Excellence in Oct 2013 for the contributions to this project.
 
 ### Frost & Sullivan, Chennai, India
+
 | Position                                        |            Duration |
 | :---------------------------------------------- | ------------------: |
 | Intern, Industrial Automation & Process Control | JUL 2010 - DEC 2010 |
@@ -74,6 +77,7 @@ Primary responsibilities involved doing market research on the domain with inter
 | Degree                          | Duration            | CGPA |
 | :------------------------------ | :------------------ | :--- |
 | Masters in Software Engineering | AUG 2014 - DEC 2015 | 3.60 |
+
 Relevant Courses: Cloud Computing, Architecture for Software Systems, Introduction to Machine Learning, Management of Software Development, Methods: Deciding What to Design, Analysis of Software Artifacts, Software Development Studio
 Projects:
 1. Twitter Analytics Project – Built end-to-end infrastructure for extracting analytics information from compressed raw Twitter data larger than 1TB in size. Used Amazon Elastic MapReduce for extracting and transforming data raw data from Amazon S3, which was then stored in MySQL and HBase databases and load tested via multiple web queries of varying complexity via web services built on Undertow and achieved on average throughput of 5,000 PRS and latency of 15 ms. As a result of the performance in the projects in the course was offered a position as Teaching Assistant.
@@ -81,6 +85,7 @@ Projects:
 3. Trusted Family’s Data Analytics Portal – Built a Data Visualization Framework front-end using EmberJS and an Analytics Engine using Ruby that uses analytics data from Trusted Family’s social platform stored in MongoDB to provide business insights for their account managers and their client’s organizations. Designed the Software System Architecture for the Analytics Engine that allows Trusted Family to modify business rules of the analytics framework on the fly to improve user-facing performance and the ability to modify the analysis pattern in the future. In addition as the Quality Manager and kept the defect density to 11/KSLOC during development with only 1 escaped defect after release.
 
 ### Birla Institute of Technology and Science, Goa, India
+
 | Degree                             | Duration            | CGPA |
 | :--------------------------------- | :------------------ | :--- |
 | BE Electronics and Instrumentation | AUG 2007 - MAY 2011 | 6.03 |
