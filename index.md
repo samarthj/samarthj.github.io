@@ -121,6 +121,6 @@ Currently maintaining 10+ projects, and growing. Notably the entire git repo sta
 3. A MariaDB builder for building a container img written using buildah. In particular there exists no scripted solution either for building mariadb standalone or as a docker image that allows customization of features during compile time. Except digging through the documentation and figuring it out oneself. This is my attempt at providing such a solution. https://github.com/samarthj/mariadb-builder
 
 * * *
-## Contact
-email: [dev@samarthj.com](mailto:dev@samarthj.com)
+## CONTACT
+email: [contact@SAMARTHJ.com](mailto:contact@samarthj.com)
 * * *
