@@ -110,15 +110,15 @@ Relevant Courses: Digital Electronics & Computational Organization, Microprocess
 ## PERSONAL PROJECTS
 
 ### Arch User Repository
-Currently maintaining 10+ projects, and growing. Notably the entire git repo stack of RedHat’s Podman, Buildah, Crun ecosystem. Earlier, also maintained 1password dev builds as well. Which was later transferred over to the owners of the software. https://github.com/samarthj/AUR
+Currently maintaining 10+ projects, and growing. Notably the entire git repo stack of RedHat’s Podman, Buildah, Crun ecosystem. Earlier, also maintained 1password dev builds as well. Which was later transferred over to the owners of the software. [https://github.com/samarthj/AUR](https://github.com/samarthj/AUR)
 
 ### Open-source contributions
 
-1. Upstream implementation of support for secrets management for podman-compose. https://github.com/containers/podman-compose/pull/320
+1. Upstream implementation of support for secrets management for podman-compose. [https://github.com/containers/podman-compose/pull/320](https://github.com/containers/podman-compose/pull/320)
 
-2. Github Action for automated archlinux containerized builds and releases to AUR / asset releases to anywhere. https://github.com/marketplace/actions/archlinux-pkgbuild
+2. Github Action for automated archlinux containerized builds and releases to AUR / asset releases to anywhere. [https://github.com/marketplace/actions/archlinux-pkgbuild](https://github.com/marketplace/actions/archlinux-pkgbuild)
 
-3. A MariaDB builder for building a container img written using buildah. In particular there exists no scripted solution either for building mariadb standalone or as a docker image that allows customization of features during compile time. Except digging through the documentation and figuring it out oneself. This is my attempt at providing such a solution. https://github.com/samarthj/mariadb-builder
+3. A MariaDB builder for building a container img written using buildah. In particular there exists no scripted solution either for building mariadb standalone or as a docker image that allows customization of features during compile time. Except digging through the documentation and figuring it out oneself. This is my attempt at providing such a solution. [https://github.com/samarthj/mariadb-builder](https://github.com/samarthj/mariadb-builder)
 
 * * *
 ## CONTACT
